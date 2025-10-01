@@ -1,9 +1,7 @@
-"""Taller evaluable"""
-
 # pylint: disable=broad-exception-raised
 # pylint: disable=import-error
 
-from mapreduce import mapreduce  # type: ignore
+from homework.mapreduce import mapreduce  # type: ignore
 
 #
 # Columns:
@@ -52,7 +50,7 @@ def run():
     )
 
 
-if __name__ == "__main__":
+if _name_ == "_main_":
 
     run()
 """Taller evaluable"""
@@ -251,6 +249,5 @@ def run():
         reducer_fn=reducer_query_5,
     )    
 
-if __name__ == "__main__":
-  run()
-
+if _name_ == "_main_":
+  run()
