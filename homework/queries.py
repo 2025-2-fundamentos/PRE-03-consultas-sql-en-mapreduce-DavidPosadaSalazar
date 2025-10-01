@@ -50,7 +50,7 @@ def run():
     )
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
 
     run()
 """Taller evaluable"""
@@ -249,5 +249,5 @@ def run():
         reducer_fn=reducer_query_5,
     )    
 
-if _name_ == "_main_":
-  run()
+if __name__ == "_main_":
+    run()
